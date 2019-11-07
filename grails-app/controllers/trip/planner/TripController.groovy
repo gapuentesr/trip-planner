@@ -101,4 +101,10 @@ class TripController {
         params.max = Math.min(max ?: 10, 100)
         respond tripService.list(params), model:[tripCount: tripService.count()]
     }
+
+    def found(Long documento) {
+        def document = documento
+        def trip = Trip.findAllByDocument(documento)
+        [document:documento, firstName:trip.firstName, lastName:trip.lastName, startDate:trip.startDate, finishDate:trip.finishDate, origin:trip.origin, destination:trip.destination]
+    }
 }

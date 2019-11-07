@@ -3,7 +3,7 @@
     <head>
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'trip.label', default: 'Trip')}" />
-        <title><g:message code="default.list.label" args="[entityName]" /></title>
+        <title>Index / Lista</title>
     </head>
     <body>
         <a href="#list-trip" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -17,7 +17,7 @@
             </ul>
         </div>
         <div id="list-trip" class="content scaffold-list" role="main">
-            <h1><g:message code="default.list.label" args="[entityName]" /></h1>
+            <h1>Lista de viajes</h1>
             <g:if test="${flash.message}">
                 <div class="message" role="status">${flash.message}</div>
             </g:if>
