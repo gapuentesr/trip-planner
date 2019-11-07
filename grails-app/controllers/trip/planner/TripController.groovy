@@ -97,7 +97,8 @@ class TripController {
         }
     }
 
-    def find (Integer document){
-        list = Trip. findAllByDocument(document)
+    def search(Integer max) {
+        params.max = Math.min(max ?: 10, 100)
+        respond tripService.list(params), model:[tripCount: tripService.count()]
     }
 }

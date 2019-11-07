@@ -11,6 +11,7 @@
         <ul class="dropdown-menu">
             <li><a class="home" href="trip/index">Lista de viajes</a></li>
             <li><a class="create" href="trip/create">Crear viaje</a></li>
+            <li><a class="search" href="trip/search">Búsqueda viaje</a></li>
         </ul>
     </li>
 </content>
