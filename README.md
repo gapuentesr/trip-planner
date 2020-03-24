@@ -1,11 +1,3 @@
-# trip-planner
-Laboratory 2 - Ingeniería de software 2
-Universidad Nacional de Colombia
-2019-2
-
-
-Aplicativo web desarrollado en Grails como ejercicio del segundo laboratorio de ingeniería de software 2.
-
 Para ejecutar este proyecto debe seguir los siguientes pasos:
 
 1). Instalar Grails en su computador.||
